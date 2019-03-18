@@ -1,18 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using SnmpSharpNet;
 
+
+
 namespace AdminLauncher
 {
-   
+
 
     public partial class Form1 : Form
     {
@@ -20,6 +15,7 @@ namespace AdminLauncher
         {
             string host = "10.136.136.41";
             string community = "public";
+            label11condTemp.Text = "proccessing";
             SimpleSnmp snmp = new SimpleSnmp(host, community);
 
             if (!snmp.Valid)
@@ -36,113 +32,24 @@ namespace AdminLauncher
 
             foreach (var item in result.Values)
             {
-                label1.Text = item.ToString();
+                
+                label11condTemp.Text = item.ToString();
             }
         }
 
-    
+     
 
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-           
-            string connect_to_uamarterm001 = @"C:\Service\scripts\adminlauncher\rdp-mar-term001.ps1";
-            System.Diagnostics.Process.Start(@"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe", " -executionpolicy Unrestricted -File " + connect_to_uamarterm001);
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            string connect_to_uamarsrvdb001 = @"C:\Service\scripts\adminlauncher\rdp-mar-srvdb001.ps1";
-            System.Diagnostics.Process.Start(@"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe", " -executionpolicy Unrestricted -File " + connect_to_uamarsrvdb001);
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            string connect_to_uamarhpv001 = @"C:\Service\scripts\adminlauncher\rdp-mar-hpv001.ps1";
-            System.Diagnostics.Process.Start(@"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe", " -executionpolicy Unrestricted -File " + connect_to_uamarhpv001);
-
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            string connect_to_uamarwww001 = @"C:\Service\scripts\adminlauncher\rdp-mar-www001.ps1";
-            System.Diagnostics.Process.Start(@"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe", " -executionpolicy Unrestricted -File " + connect_to_uamarwww001);
-
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            string connect_to_uakhesrvdb001 = @"C:\Service\scripts\adminlauncher\rdp-khe-srvdb001.ps1";
-            System.Diagnostics.Process.Start(@"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe", " -executionpolicy Unrestricted -File " + connect_to_uakhesrvdb001);
-
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            string connect_to_uablsrvdb001 = @"C:\Service\scripts\adminlauncher\rdp-bl-srvdb001.ps1";
-            System.Diagnostics.Process.Start(@"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe", " -executionpolicy Unrestricted -File " + connect_to_uablsrvdb001);
-
-
-        }
-
-        private void button18_Click(object sender, EventArgs e)
-        {
             
-            string connect_to_uakhehpv001 = @"C:\Service\scripts\adminlauncher\rdp-khe-hpv001.ps1";
-            System.Diagnostics.Process.Start(@"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe", " -executionpolicy Unrestricted -File " + connect_to_uakhehpv001);
-
         }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
-            string connect_to_uablhpv002 = @"C:\Service\scripts\adminlauncher\rdp-bl-hpv002.ps1";
-            System.Diagnostics.Process.Start(@"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe", " -executionpolicy Unrestricted -File " + connect_to_uablhpv002);
-
-
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-            string connect_to_uamrgsrv001 = @"C:\Service\scripts\adminlauncher\rdp-mrg-srv001.ps1";
-            System.Diagnostics.Process.Start(@"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe", " -executionpolicy Unrestricted -File " + connect_to_uamrgsrv001);
-
-        }
-
-        private void button19_Click(object sender, EventArgs e)
-        {
-
-            string connect_to_uakhehpv002 = @"C:\Service\scripts\adminlauncher\rdp-khe-hpv002.ps1";
-            System.Diagnostics.Process.Start(@"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe", " -executionpolicy Unrestricted -File " + connect_to_uakhehpv002);
-
-        }
-
-        private void button17_Click(object sender, EventArgs e)
-        {
-
-            string connect_to_uakhesrv001 = @"C:\Service\scripts\adminlauncher\rdp-khe-srv001.ps1";
-            System.Diagnostics.Process.Start(@"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe", " -executionpolicy Unrestricted -File " + connect_to_uakhesrv001);
-
-
-        }
-
-        private void button16_Click(object sender, EventArgs e)
-        {
-            string connect_to_uamarsrv001 = @"C:\Service\scripts\adminlauncher\rdp-mar-srv001.ps1";
-            System.Diagnostics.Process.Start(@"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe", " -executionpolicy Unrestricted -File " + connect_to_uamarsrv001);
-
-
-        }
-
-
+        
         private void Form1_Load(object sender, EventArgs e)
         {
             Marconmon();
             
+
         }
 
         private void InitializeTimer()
@@ -163,38 +70,149 @@ namespace AdminLauncher
 
         }
 
+        private void RdpConnect(string scriptname)
+        {
+            ServersChecker sc = new ServersChecker();
+            sc.RdpConnect(scriptname);
+        }
+
+
+        
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+            RdpConnect("rdp-mar-hpv001");           
+
+        }
+
+        private void button2uamarsrvdb001_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-mar-srvdb001");
+
+        }
+
+        private void button12uamrgsrvdb001_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-mrg-srvdb001");
+        }
+
+        private void button7uakhesrvdb001_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-khe-srvdb001");
+        }
+
+        private void button8uablsrvdb001_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-bl-srvdb001");
+        }
+
+        private void button16uamarsrv001_Click(object sender, EventArgs e)
+        {
+            
+            RdpConnect("rdp-mar-srv001");
+        }
+
+        private void button5uamarhpv003_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-mar-hpv003");
+        }
+
+        private void button2kzsmihpv001_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-smi-hpv001");
+
+        }
+
+        private void button10uamrghpv001_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-mrg-hpv001");
+        }
+
+        private void button18uakhehpv001_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-khe-hpv001");
+        }
+
+        private void button26kzdensrvdb001_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-kzden-srvdb001");
+        }
+
+        private void button25kzdenonc001_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-kzden-onc001");
+        }
+
+        private void button23kzdenhpv001_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-kzden-hpv001");
+        }
+
+        private void button6uamarwww001_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-mar-www001");
+        }
+
+        private void button1uamarterm001_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-mar-term001");
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-bl-srv002");
+        }
+
+        private void button13uablhpv001_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-bl-hpv001");
+        }
+
+        private void button14uablhpv002_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-bl-hpv002");
+        }
+
+        private void button4uamarhpv002_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-mar-hpv002");
+        }
+
+        private void button11uamrgsrv001_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-mrg-srv001");
+        }
+
+        private void button20uablsecsrv001_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-bl-sec001");
+        }
+
+        private void button19uakhehpv002_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-khe-hpv002");
+        }
+
+        private void button17uakhesrv001_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-khe-srv001");
+        }
+
         private void button9_Click(object sender, EventArgs e)
         {
-            label1.Text =  Alsnmpmon.ShowMarCondTemp();
-
+            System.Diagnostics.Process.Start("http://google.com");
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void button8runServiceNow_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void groupBox5_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
+            System.Diagnostics.Process.Start("https://cofcointernational.service-now.com/nav_to.do");
             
         }
 
-        private void button21_Click(object sender, EventArgs e)
+        private void button9runSolarWinds_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button22_Click(object sender, EventArgs e)
-        {
-            string connect_to_uaazudev001 = @"C:\Service\scripts\adminlauncher\rdp-azu-dev001.ps1";
-            System.Diagnostics.Process.Start(@"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe", " -executionpolicy Unrestricted -File " + connect_to_uaazudev001);
-
-
+            System.Diagnostics.Process.Start("https://solarwinds.cofcointernational.com/Orion/Login.aspx?ReturnUrl=%2f");
+            
         }
     }
 }

@@ -29,165 +29,90 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.button10 = new System.Windows.Forms.Button();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.button21 = new System.Windows.Forms.Button();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label7 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button16uamarsrv001 = new System.Windows.Forms.Button();
+            this.button6uamarwww001 = new System.Windows.Forms.Button();
+            this.button5uamarhpv003 = new System.Windows.Forms.Button();
+            this.button4uamarhpv002 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button2uamarsrvdb001 = new System.Windows.Forms.Button();
+            this.button1uamarterm001 = new System.Windows.Forms.Button();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.button20uablsecsrv001 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button14uablhpv002 = new System.Windows.Forms.Button();
+            this.button13uablhpv001 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button8uablsrvdb001 = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.button19uakhehpv002 = new System.Windows.Forms.Button();
+            this.button18uakhehpv001 = new System.Windows.Forms.Button();
+            this.button17uakhesrv001 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.button7uakhesrvdb001 = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button12uamrgsrvdb001 = new System.Windows.Forms.Button();
+            this.button11uamrgsrv001 = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.button10uamrghpv001 = new System.Windows.Forms.Button();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.button26kzdensrvdb001 = new System.Windows.Forms.Button();
+            this.button25kzdenonc001 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button23kzdenhpv001 = new System.Windows.Forms.Button();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.button2kzsmihpv001 = new System.Windows.Forms.Button();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.button22 = new System.Windows.Forms.Button();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.tabPage5kzoffices = new System.Windows.Forms.TabPage();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.tabPage6uakiev = new System.Windows.Forms.TabPage();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8runServiceNow = new System.Windows.Forms.Button();
+            this.button9runSolarWinds = new System.Windows.Forms.Button();
+            this.label11condTemp = new System.Windows.Forms.Label();
             this.groupBox5.SuspendLayout();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            this.tabPage4.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            this.tabPage5kzoffices.SuspendLayout();
+            this.groupBox10.SuspendLayout();
+            this.groupBox9.SuspendLayout();
+            this.tabPage6uakiev.SuspendLayout();
+            this.groupBox11.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.button16);
-            this.groupBox1.Controls.Add(this.button6);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 28);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(170, 294);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "RDP connect - MARIUPOL";
-            // 
-            // button16
-            // 
-            this.button16.Location = new System.Drawing.Point(9, 148);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(128, 23);
-            this.button16.TabIndex = 9;
-            this.button16.Text = "UAMARSRV001";
-            this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.button16_Click);
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(9, 222);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(128, 23);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "UAMARWWW001";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(9, 206);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 13);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Special servers";
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(9, 96);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(128, 23);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "UAMARHPV003";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(9, 67);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(128, 23);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "UAMARHPV002";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(9, 38);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(128, 23);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "UAMARHPV001";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 19);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Physical servers";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 130);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "MAR Hyper-V machines";
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(9, 176);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(128, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "UAMARSRVDB001";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(9, 251);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(128, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "UAMARTERM001";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -198,39 +123,369 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "--";
             // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(888, 15);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(131, 23);
+            this.button9.TabIndex = 5;
+            this.button9.Text = "RESERVED for TEST";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.button9runSolarWinds);
+            this.groupBox5.Controls.Add(this.button8runServiceNow);
+            this.groupBox5.Controls.Add(this.button21);
+            this.groupBox5.Controls.Add(this.button9);
+            this.groupBox5.Location = new System.Drawing.Point(12, 498);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(1025, 44);
+            this.groupBox5.TabIndex = 7;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Run";
+            // 
+            // button21
+            // 
+            this.button21.Location = new System.Drawing.Point(9, 15);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(75, 23);
+            this.button21.TabIndex = 0;
+            this.button21.Text = "PuTTY";
+            this.button21.UseVisualStyleBackColor = true;
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage6uakiev);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Controls.Add(this.tabPage5kzoffices);
+            this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Location = new System.Drawing.Point(1, 5);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(1044, 487);
+            this.tabControl1.TabIndex = 9;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.label11condTemp);
+            this.tabPage1.Controls.Add(this.label7);
+            this.tabPage1.Controls.Add(this.groupBox1);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1036, 461);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "UA MAR";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(219, 400);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(165, 13);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "MAR Server Conditioner, Air temp";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.button16uamarsrv001);
+            this.groupBox1.Controls.Add(this.button6uamarwww001);
+            this.groupBox1.Controls.Add(this.button5uamarhpv003);
+            this.groupBox1.Controls.Add(this.button4uamarhpv002);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.button2uamarsrvdb001);
+            this.groupBox1.Controls.Add(this.button1uamarterm001);
+            this.groupBox1.Location = new System.Drawing.Point(214, 69);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(599, 294);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "RDP connect - MARIUPOL";
+            // 
+            // button16uamarsrv001
+            // 
+            this.button16uamarsrv001.Location = new System.Drawing.Point(449, 141);
+            this.button16uamarsrv001.Name = "button16uamarsrv001";
+            this.button16uamarsrv001.Size = new System.Drawing.Size(128, 23);
+            this.button16uamarsrv001.TabIndex = 9;
+            this.button16uamarsrv001.Text = "UAMARSRV001";
+            this.button16uamarsrv001.UseVisualStyleBackColor = true;
+            this.button16uamarsrv001.Click += new System.EventHandler(this.button16uamarsrv001_Click);
+            // 
+            // button6uamarwww001
+            // 
+            this.button6uamarwww001.Location = new System.Drawing.Point(449, 199);
+            this.button6uamarwww001.Name = "button6uamarwww001";
+            this.button6uamarwww001.Size = new System.Drawing.Size(128, 23);
+            this.button6uamarwww001.TabIndex = 8;
+            this.button6uamarwww001.Text = "UAMARWWW001";
+            this.button6uamarwww001.UseVisualStyleBackColor = true;
+            this.button6uamarwww001.Click += new System.EventHandler(this.button6uamarwww001_Click);
+            // 
+            // button5uamarhpv003
+            // 
+            this.button5uamarhpv003.Location = new System.Drawing.Point(449, 52);
+            this.button5uamarhpv003.Name = "button5uamarhpv003";
+            this.button5uamarhpv003.Size = new System.Drawing.Size(128, 23);
+            this.button5uamarhpv003.TabIndex = 6;
+            this.button5uamarhpv003.Text = "UAMARHPV003";
+            this.button5uamarhpv003.UseVisualStyleBackColor = true;
+            this.button5uamarhpv003.Click += new System.EventHandler(this.button5uamarhpv003_Click);
+            // 
+            // button4uamarhpv002
+            // 
+            this.button4uamarhpv002.Location = new System.Drawing.Point(224, 52);
+            this.button4uamarhpv002.Name = "button4uamarhpv002";
+            this.button4uamarhpv002.Size = new System.Drawing.Size(128, 23);
+            this.button4uamarhpv002.TabIndex = 5;
+            this.button4uamarhpv002.Text = "UAMARHPV002";
+            this.button4uamarhpv002.UseVisualStyleBackColor = true;
+            this.button4uamarhpv002.Click += new System.EventHandler(this.button4uamarhpv002_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(6, 52);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(128, 23);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "UAMARHPV001";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 36);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(83, 13);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Physical servers";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(446, 115);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(141, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "MAR Hyper-V 003 machines";
+            // 
+            // button2uamarsrvdb001
+            // 
+            this.button2uamarsrvdb001.Location = new System.Drawing.Point(449, 170);
+            this.button2uamarsrvdb001.Name = "button2uamarsrvdb001";
+            this.button2uamarsrvdb001.Size = new System.Drawing.Size(128, 23);
+            this.button2uamarsrvdb001.TabIndex = 1;
+            this.button2uamarsrvdb001.Text = "UAMARSRVDB001";
+            this.button2uamarsrvdb001.UseVisualStyleBackColor = true;
+            this.button2uamarsrvdb001.Click += new System.EventHandler(this.button2uamarsrvdb001_Click);
+            // 
+            // button1uamarterm001
+            // 
+            this.button1uamarterm001.Location = new System.Drawing.Point(224, 141);
+            this.button1uamarterm001.Name = "button1uamarterm001";
+            this.button1uamarterm001.Size = new System.Drawing.Size(128, 23);
+            this.button1uamarterm001.TabIndex = 0;
+            this.button1uamarterm001.Text = "UAMARTERM001";
+            this.button1uamarterm001.UseVisualStyleBackColor = true;
+            this.button1uamarterm001.Click += new System.EventHandler(this.button1uamarterm001_Click);
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.groupBox4);
+            this.tabPage2.Controls.Add(this.groupBox3);
+            this.tabPage2.Controls.Add(this.groupBox2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1036, 461);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "UA SILOS";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.label10);
+            this.groupBox4.Controls.Add(this.button20uablsecsrv001);
+            this.groupBox4.Controls.Add(this.button15);
+            this.groupBox4.Controls.Add(this.button14uablhpv002);
+            this.groupBox4.Controls.Add(this.button13uablhpv001);
+            this.groupBox4.Controls.Add(this.label6);
+            this.groupBox4.Controls.Add(this.button8uablsrvdb001);
+            this.groupBox4.Location = new System.Drawing.Point(248, 91);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(359, 294);
+            this.groupBox4.TabIndex = 10;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "RDP connect - BELGRAVIA";
+            // 
+            // button20uablsecsrv001
+            // 
+            this.button20uablsecsrv001.Location = new System.Drawing.Point(199, 177);
+            this.button20uablsecsrv001.Name = "button20uablsecsrv001";
+            this.button20uablsecsrv001.Size = new System.Drawing.Size(135, 27);
+            this.button20uablsecsrv001.TabIndex = 5;
+            this.button20uablsecsrv001.Text = "UABLSECSRV001";
+            this.button20uablsecsrv001.UseVisualStyleBackColor = true;
+            this.button20uablsecsrv001.Click += new System.EventHandler(this.button20uablsecsrv001_Click);
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(199, 148);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(135, 23);
+            this.button15.TabIndex = 4;
+            this.button15.Text = "UABLSRV002";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
+            // button14uablhpv002
+            // 
+            this.button14uablhpv002.Location = new System.Drawing.Point(199, 38);
+            this.button14uablhpv002.Name = "button14uablhpv002";
+            this.button14uablhpv002.Size = new System.Drawing.Size(135, 23);
+            this.button14uablhpv002.TabIndex = 3;
+            this.button14uablhpv002.Text = "UABLHPV002";
+            this.button14uablhpv002.UseVisualStyleBackColor = true;
+            this.button14uablhpv002.Click += new System.EventHandler(this.button14uablhpv002_Click);
+            // 
+            // button13uablhpv001
+            // 
+            this.button13uablhpv001.Location = new System.Drawing.Point(17, 38);
+            this.button13uablhpv001.Name = "button13uablhpv001";
+            this.button13uablhpv001.Size = new System.Drawing.Size(135, 23);
+            this.button13uablhpv001.TabIndex = 2;
+            this.button13uablhpv001.Text = "UABLHPV001";
+            this.button13uablhpv001.UseVisualStyleBackColor = true;
+            this.button13uablhpv001.Click += new System.EventHandler(this.button13uablhpv001_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(14, 130);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(130, 13);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "BL Hyper-V 001 machines";
+            // 
+            // button8uablsrvdb001
+            // 
+            this.button8uablsrvdb001.Location = new System.Drawing.Point(17, 148);
+            this.button8uablsrvdb001.Name = "button8uablsrvdb001";
+            this.button8uablsrvdb001.Size = new System.Drawing.Size(135, 23);
+            this.button8uablsrvdb001.TabIndex = 0;
+            this.button8uablsrvdb001.Text = "UABLSRVDB001";
+            this.button8uablsrvdb001.UseVisualStyleBackColor = true;
+            this.button8uablsrvdb001.Click += new System.EventHandler(this.button8uablsrvdb001_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.button19uakhehpv002);
+            this.groupBox3.Controls.Add(this.button18uakhehpv001);
+            this.groupBox3.Controls.Add(this.button17uakhesrv001);
+            this.groupBox3.Controls.Add(this.label5);
+            this.groupBox3.Controls.Add(this.button7uakhesrvdb001);
+            this.groupBox3.Location = new System.Drawing.Point(613, 91);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(417, 294);
+            this.groupBox3.TabIndex = 9;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "RDP connect - NOVOALEKSEEVKA";
+            // 
+            // button19uakhehpv002
+            // 
+            this.button19uakhehpv002.Location = new System.Drawing.Point(210, 38);
+            this.button19uakhehpv002.Name = "button19uakhehpv002";
+            this.button19uakhehpv002.Size = new System.Drawing.Size(142, 23);
+            this.button19uakhehpv002.TabIndex = 4;
+            this.button19uakhehpv002.Text = "UAKHEHPV002";
+            this.button19uakhehpv002.UseVisualStyleBackColor = true;
+            this.button19uakhehpv002.Click += new System.EventHandler(this.button19uakhehpv002_Click);
+            // 
+            // button18uakhehpv001
+            // 
+            this.button18uakhehpv001.Location = new System.Drawing.Point(18, 38);
+            this.button18uakhehpv001.Name = "button18uakhehpv001";
+            this.button18uakhehpv001.Size = new System.Drawing.Size(142, 23);
+            this.button18uakhehpv001.TabIndex = 3;
+            this.button18uakhehpv001.Text = "UAKHEHPV001";
+            this.button18uakhehpv001.UseVisualStyleBackColor = true;
+            this.button18uakhehpv001.Click += new System.EventHandler(this.button18uakhehpv001_Click);
+            // 
+            // button17uakhesrv001
+            // 
+            this.button17uakhesrv001.Location = new System.Drawing.Point(18, 148);
+            this.button17uakhesrv001.Name = "button17uakhesrv001";
+            this.button17uakhesrv001.Size = new System.Drawing.Size(142, 23);
+            this.button17uakhesrv001.TabIndex = 2;
+            this.button17uakhesrv001.Text = "UAKHESRV001";
+            this.button17uakhesrv001.UseVisualStyleBackColor = true;
+            this.button17uakhesrv001.Click += new System.EventHandler(this.button17uakhesrv001_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(15, 130);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(139, 13);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "KHE Hyper-V 001 machines";
+            // 
+            // button7uakhesrvdb001
+            // 
+            this.button7uakhesrvdb001.Location = new System.Drawing.Point(18, 176);
+            this.button7uakhesrvdb001.Name = "button7uakhesrvdb001";
+            this.button7uakhesrvdb001.Size = new System.Drawing.Size(142, 23);
+            this.button7uakhesrvdb001.TabIndex = 0;
+            this.button7uakhesrvdb001.Text = "UAKHESRVDB001";
+            this.button7uakhesrvdb001.UseVisualStyleBackColor = true;
+            this.button7uakhesrvdb001.Click += new System.EventHandler(this.button7uakhesrvdb001_Click);
+            // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.button12);
-            this.groupBox2.Controls.Add(this.button11);
+            this.groupBox2.Controls.Add(this.button12uamrgsrvdb001);
+            this.groupBox2.Controls.Add(this.button11uamrgsrv001);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.button10);
-            this.groupBox2.Location = new System.Drawing.Point(199, 28);
+            this.groupBox2.Controls.Add(this.button10uamrghpv001);
+            this.groupBox2.Location = new System.Drawing.Point(59, 91);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(183, 294);
-            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "RDP connect - MISHURIN RIG";
             // 
-            // button12
+            // button12uamrgsrvdb001
             // 
-            this.button12.Location = new System.Drawing.Point(10, 176);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(130, 23);
-            this.button12.TabIndex = 4;
-            this.button12.Text = "UAMRGSRVDB001";
-            this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
+            this.button12uamrgsrvdb001.Location = new System.Drawing.Point(10, 176);
+            this.button12uamrgsrvdb001.Name = "button12uamrgsrvdb001";
+            this.button12uamrgsrvdb001.Size = new System.Drawing.Size(130, 23);
+            this.button12uamrgsrvdb001.TabIndex = 4;
+            this.button12uamrgsrvdb001.Text = "UAMRGSRVDB001";
+            this.button12uamrgsrvdb001.UseVisualStyleBackColor = true;
+            this.button12uamrgsrvdb001.Click += new System.EventHandler(this.button12uamrgsrvdb001_Click);
             // 
-            // button11
+            // button11uamrgsrv001
             // 
-            this.button11.Location = new System.Drawing.Point(10, 148);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(130, 23);
-            this.button11.TabIndex = 3;
-            this.button11.Text = "UAMRGSRV001";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
+            this.button11uamrgsrv001.Location = new System.Drawing.Point(10, 148);
+            this.button11uamrgsrv001.Name = "button11uamrgsrv001";
+            this.button11uamrgsrv001.Size = new System.Drawing.Size(130, 23);
+            this.button11uamrgsrv001.TabIndex = 3;
+            this.button11uamrgsrv001.Text = "UAMRGSRV001";
+            this.button11uamrgsrv001.UseVisualStyleBackColor = true;
+            this.button11uamrgsrv001.Click += new System.EventHandler(this.button11uamrgsrv001_Click);
             // 
             // label9
             // 
@@ -250,201 +505,121 @@
             this.label8.TabIndex = 1;
             this.label8.Text = "Physical servers";
             // 
-            // button10
+            // button10uamrghpv001
             // 
-            this.button10.Location = new System.Drawing.Point(10, 38);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(130, 23);
-            this.button10.TabIndex = 0;
-            this.button10.Text = "UAMRGHPV001";
-            this.button10.UseVisualStyleBackColor = true;
+            this.button10uamrghpv001.Location = new System.Drawing.Point(10, 38);
+            this.button10uamrghpv001.Name = "button10uamrghpv001";
+            this.button10uamrghpv001.Size = new System.Drawing.Size(130, 23);
+            this.button10uamrghpv001.TabIndex = 0;
+            this.button10uamrghpv001.Text = "UAMRGHPV001";
+            this.button10uamrghpv001.UseVisualStyleBackColor = true;
+            this.button10uamrghpv001.Click += new System.EventHandler(this.button10uamrghpv001_Click);
             // 
-            // groupBox3
+            // tabPage3
             // 
-            this.groupBox3.Controls.Add(this.button19);
-            this.groupBox3.Controls.Add(this.button18);
-            this.groupBox3.Controls.Add(this.button17);
-            this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Controls.Add(this.button7);
-            this.groupBox3.Location = new System.Drawing.Point(588, 28);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(200, 294);
-            this.groupBox3.TabIndex = 3;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "RDP connect - NOVOALEKSEEVKA";
+            this.tabPage3.Controls.Add(this.groupBox8);
+            this.tabPage3.Controls.Add(this.groupBox7);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1036, 461);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "KZ SILOS";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // button19
+            // groupBox8
             // 
-            this.button19.Location = new System.Drawing.Point(18, 67);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(142, 23);
-            this.button19.TabIndex = 4;
-            this.button19.Text = "UAKHEHPV002";
-            this.button19.UseVisualStyleBackColor = true;
-            this.button19.Click += new System.EventHandler(this.button19_Click);
+            this.groupBox8.Controls.Add(this.button26kzdensrvdb001);
+            this.groupBox8.Controls.Add(this.button25kzdenonc001);
+            this.groupBox8.Controls.Add(this.button24);
+            this.groupBox8.Controls.Add(this.button23kzdenhpv001);
+            this.groupBox8.Location = new System.Drawing.Point(547, 31);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(200, 355);
+            this.groupBox8.TabIndex = 1;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "DENISOVKA";
             // 
-            // button18
+            // button26kzdensrvdb001
             // 
-            this.button18.Location = new System.Drawing.Point(18, 38);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(142, 23);
-            this.button18.TabIndex = 3;
-            this.button18.Text = "UAKHEHPV001";
-            this.button18.UseVisualStyleBackColor = true;
-            this.button18.Click += new System.EventHandler(this.button18_Click);
+            this.button26kzdensrvdb001.Location = new System.Drawing.Point(18, 149);
+            this.button26kzdensrvdb001.Name = "button26kzdensrvdb001";
+            this.button26kzdensrvdb001.Size = new System.Drawing.Size(167, 23);
+            this.button26kzdensrvdb001.TabIndex = 3;
+            this.button26kzdensrvdb001.Text = "KZDENSRVDB001";
+            this.button26kzdensrvdb001.UseVisualStyleBackColor = true;
+            this.button26kzdensrvdb001.Click += new System.EventHandler(this.button26kzdensrvdb001_Click);
             // 
-            // button17
+            // button25kzdenonc001
             // 
-            this.button17.Location = new System.Drawing.Point(18, 148);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(142, 23);
-            this.button17.TabIndex = 2;
-            this.button17.Text = "UAKHESRV001";
-            this.button17.UseVisualStyleBackColor = true;
-            this.button17.Click += new System.EventHandler(this.button17_Click);
+            this.button25kzdenonc001.Location = new System.Drawing.Point(18, 109);
+            this.button25kzdenonc001.Name = "button25kzdenonc001";
+            this.button25kzdenonc001.Size = new System.Drawing.Size(167, 23);
+            this.button25kzdenonc001.TabIndex = 2;
+            this.button25kzdenonc001.Text = "KZDENONC001";
+            this.button25kzdenonc001.UseVisualStyleBackColor = true;
+            this.button25kzdenonc001.Click += new System.EventHandler(this.button25kzdenonc001_Click);
             // 
-            // label5
+            // button24
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(15, 130);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(118, 13);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "KHE Hyper-V machines";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.button24.Location = new System.Drawing.Point(18, 71);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(167, 23);
+            this.button24.TabIndex = 1;
+            this.button24.Text = "KZDENLIC001";
+            this.button24.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // button23kzdenhpv001
             // 
-            this.button7.Location = new System.Drawing.Point(18, 176);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(142, 23);
-            this.button7.TabIndex = 0;
-            this.button7.Text = "UAKHESRVDB001";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.button23kzdenhpv001.Location = new System.Drawing.Point(18, 33);
+            this.button23kzdenhpv001.Name = "button23kzdenhpv001";
+            this.button23kzdenhpv001.Size = new System.Drawing.Size(167, 23);
+            this.button23kzdenhpv001.TabIndex = 0;
+            this.button23kzdenhpv001.Text = "KZDENHPV001";
+            this.button23kzdenhpv001.UseVisualStyleBackColor = true;
+            this.button23kzdenhpv001.Click += new System.EventHandler(this.button23kzdenhpv001_Click);
             // 
-            // groupBox4
+            // groupBox7
             // 
-            this.groupBox4.Controls.Add(this.button20);
-            this.groupBox4.Controls.Add(this.button15);
-            this.groupBox4.Controls.Add(this.button14);
-            this.groupBox4.Controls.Add(this.button13);
-            this.groupBox4.Controls.Add(this.label6);
-            this.groupBox4.Controls.Add(this.button8);
-            this.groupBox4.Location = new System.Drawing.Point(400, 28);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(182, 294);
-            this.groupBox4.TabIndex = 4;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "RDP connect - BELGRAVIA";
+            this.groupBox7.Controls.Add(this.button4);
+            this.groupBox7.Controls.Add(this.button2);
+            this.groupBox7.Controls.Add(this.button1);
+            this.groupBox7.Controls.Add(this.button2kzsmihpv001);
+            this.groupBox7.Location = new System.Drawing.Point(274, 31);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(200, 355);
+            this.groupBox7.TabIndex = 0;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "SMIRNOVO";
             // 
-            // button20
+            // button2kzsmihpv001
             // 
-            this.button20.Location = new System.Drawing.Point(17, 206);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(135, 27);
-            this.button20.TabIndex = 5;
-            this.button20.Text = "UABLSECSRV001";
-            this.button20.UseVisualStyleBackColor = true;
+            this.button2kzsmihpv001.Location = new System.Drawing.Point(7, 33);
+            this.button2kzsmihpv001.Name = "button2kzsmihpv001";
+            this.button2kzsmihpv001.Size = new System.Drawing.Size(168, 23);
+            this.button2kzsmihpv001.TabIndex = 0;
+            this.button2kzsmihpv001.Text = "KZSMIHPV001";
+            this.button2kzsmihpv001.UseVisualStyleBackColor = true;
+            this.button2kzsmihpv001.Click += new System.EventHandler(this.button2kzsmihpv001_Click);
             // 
-            // button15
+            // tabPage4
             // 
-            this.button15.Location = new System.Drawing.Point(17, 148);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(135, 23);
-            this.button15.TabIndex = 4;
-            this.button15.Text = "UABLSRV002";
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // button14
-            // 
-            this.button14.Location = new System.Drawing.Point(17, 67);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(135, 23);
-            this.button14.TabIndex = 3;
-            this.button14.Text = "UABLHPV002";
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
-            // 
-            // button13
-            // 
-            this.button13.Location = new System.Drawing.Point(17, 38);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(135, 23);
-            this.button13.TabIndex = 2;
-            this.button13.Text = "UABLHPV001";
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(14, 130);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(109, 13);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "BL Hyper-V machines";
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(17, 176);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(135, 23);
-            this.button8.TabIndex = 0;
-            this.button8.Text = "UABLSRVDB001";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(657, 339);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(131, 23);
-            this.button9.TabIndex = 5;
-            this.button9.Text = "TestButton";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 339);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(165, 13);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "MAR Server Conditioner, Air temp";
-            // 
-            // timer1
-            // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.button21);
-            this.groupBox5.Location = new System.Drawing.Point(12, 498);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(776, 44);
-            this.groupBox5.TabIndex = 7;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Run";
-            this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
-            // 
-            // button21
-            // 
-            this.button21.Location = new System.Drawing.Point(9, 15);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(75, 23);
-            this.button21.TabIndex = 0;
-            this.button21.Text = "PuTTY";
-            this.button21.UseVisualStyleBackColor = true;
-            this.button21.Click += new System.EventHandler(this.button21_Click);
+            this.tabPage4.Controls.Add(this.groupBox6);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1036, 461);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "AZURE";
+            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // groupBox6
             // 
             this.groupBox6.Controls.Add(this.button22);
-            this.groupBox6.Location = new System.Drawing.Point(12, 364);
+            this.groupBox6.Location = new System.Drawing.Point(333, 188);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(370, 100);
-            this.groupBox6.TabIndex = 8;
+            this.groupBox6.TabIndex = 9;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "RDP to Azure Servers";
             // 
@@ -456,80 +631,265 @@
             this.button22.TabIndex = 0;
             this.button22.Text = "EUWE01ZDEV1CU01.ci.corp";
             this.button22.UseVisualStyleBackColor = true;
-            this.button22.Click += new System.EventHandler(this.button22_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(221, 115);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(141, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "MAR Hyper-V 002 machines";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(196, 130);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(130, 13);
+            this.label10.TabIndex = 6;
+            this.label10.Text = "BL Hyper-V 002 machines";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(6, 71);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(169, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(6, 109);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(169, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(7, 149);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(168, 23);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // tabPage5kzoffices
+            // 
+            this.tabPage5kzoffices.Controls.Add(this.groupBox10);
+            this.tabPage5kzoffices.Controls.Add(this.groupBox9);
+            this.tabPage5kzoffices.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5kzoffices.Name = "tabPage5kzoffices";
+            this.tabPage5kzoffices.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5kzoffices.Size = new System.Drawing.Size(1036, 461);
+            this.tabPage5kzoffices.TabIndex = 4;
+            this.tabPage5kzoffices.Text = "KZ Offices";
+            this.tabPage5kzoffices.UseVisualStyleBackColor = true;
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.Controls.Add(this.button6);
+            this.groupBox10.Location = new System.Drawing.Point(529, 53);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(200, 355);
+            this.groupBox10.TabIndex = 5;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "ALMATY";
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(16, 33);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(161, 23);
+            this.button6.TabIndex = 0;
+            this.button6.Text = "Almaty Server";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.button5);
+            this.groupBox9.Location = new System.Drawing.Point(307, 53);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(200, 355);
+            this.groupBox9.TabIndex = 4;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "KOSTANAY";
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(16, 33);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(161, 23);
+            this.button5.TabIndex = 0;
+            this.button5.Text = "Citrix Farm";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // tabPage6uakiev
+            // 
+            this.tabPage6uakiev.Controls.Add(this.groupBox11);
+            this.tabPage6uakiev.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6uakiev.Name = "tabPage6uakiev";
+            this.tabPage6uakiev.Size = new System.Drawing.Size(1036, 461);
+            this.tabPage6uakiev.TabIndex = 5;
+            this.tabPage6uakiev.Text = "UA KIEV";
+            this.tabPage6uakiev.UseVisualStyleBackColor = true;
+            // 
+            // groupBox11
+            // 
+            this.groupBox11.Controls.Add(this.button7);
+            this.groupBox11.Location = new System.Drawing.Point(111, 40);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Size = new System.Drawing.Size(228, 391);
+            this.groupBox11.TabIndex = 0;
+            this.groupBox11.TabStop = false;
+            this.groupBox11.Text = "RDP Kiev Servers";
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(17, 37);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(180, 23);
+            this.button7.TabIndex = 0;
+            this.button7.Text = "HPV1";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8runServiceNow
+            // 
+            this.button8runServiceNow.Location = new System.Drawing.Point(102, 15);
+            this.button8runServiceNow.Name = "button8runServiceNow";
+            this.button8runServiceNow.Size = new System.Drawing.Size(75, 23);
+            this.button8runServiceNow.TabIndex = 6;
+            this.button8runServiceNow.Text = "ServiceNow";
+            this.button8runServiceNow.UseVisualStyleBackColor = true;
+            this.button8runServiceNow.Click += new System.EventHandler(this.button8runServiceNow_Click);
+            // 
+            // button9runSolarWinds
+            // 
+            this.button9runSolarWinds.Location = new System.Drawing.Point(196, 15);
+            this.button9runSolarWinds.Name = "button9runSolarWinds";
+            this.button9runSolarWinds.Size = new System.Drawing.Size(75, 23);
+            this.button9runSolarWinds.TabIndex = 7;
+            this.button9runSolarWinds.Text = "button8";
+            this.button9runSolarWinds.UseVisualStyleBackColor = true;
+            this.button9runSolarWinds.Click += new System.EventHandler(this.button9runSolarWinds_Click);
+            // 
+            // label11condTemp
+            // 
+            this.label11condTemp.AutoSize = true;
+            this.label11condTemp.Location = new System.Drawing.Point(390, 400);
+            this.label11condTemp.Name = "label11condTemp";
+            this.label11condTemp.Size = new System.Drawing.Size(110, 13);
+            this.label11condTemp.TabIndex = 8;
+            this.label11condTemp.Text = "MarCondTemperature";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 554);
-            this.Controls.Add(this.groupBox6);
+            this.ClientSize = new System.Drawing.Size(1049, 554);
+            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.groupBox5);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Admin panel";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.groupBox5.ResumeLayout(false);
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox7.ResumeLayout(false);
+            this.tabPage4.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
+            this.tabPage5kzoffices.ResumeLayout(false);
+            this.groupBox10.ResumeLayout(false);
+            this.groupBox9.ResumeLayout(false);
+            this.tabPage6uakiev.ResumeLayout(false);
+            this.groupBox11.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button16uamarsrv001;
+        private System.Windows.Forms.Button button6uamarwww001;
+        private System.Windows.Forms.Button button5uamarhpv003;
+        private System.Windows.Forms.Button button4uamarhpv002;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button2uamarsrvdb001;
+        private System.Windows.Forms.Button button1uamarterm001;
+        private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Button button20uablsecsrv001;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button14uablhpv002;
+        private System.Windows.Forms.Button button13uablhpv001;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button8uablsrvdb001;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button button19uakhehpv002;
+        private System.Windows.Forms.Button button18uakhehpv001;
+        private System.Windows.Forms.Button button17uakhesrv001;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button7uakhesrvdb001;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button button12uamrgsrvdb001;
+        private System.Windows.Forms.Button button11uamrgsrv001;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button10uamrghpv001;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.GroupBox groupBox8;
+        private System.Windows.Forms.Button button26kzdensrvdb001;
+        private System.Windows.Forms.Button button25kzdenonc001;
+        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button button23kzdenhpv001;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.Button button2kzsmihpv001;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TabPage tabPage5kzoffices;
+        private System.Windows.Forms.GroupBox groupBox10;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TabPage tabPage6uakiev;
+        private System.Windows.Forms.GroupBox groupBox11;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8runServiceNow;
+        private System.Windows.Forms.Button button9runSolarWinds;
+        private System.Windows.Forms.Label label11condTemp;
     }
 }
 

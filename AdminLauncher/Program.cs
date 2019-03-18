@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using AdminLauncher;
 
 namespace AdminLauncher
 {
@@ -15,6 +11,8 @@ namespace AdminLauncher
         [STAThread]
         static void Main()
         {
+            ServersChecker sc = new ServersChecker();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
