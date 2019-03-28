@@ -1,2 +1,3 @@
 # CSharp
-Admin panel 
+Admin panel for my daily routine
+
