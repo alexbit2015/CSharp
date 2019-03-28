@@ -11,6 +11,7 @@ namespace AdminLauncher
 
     public partial class Form1 : Form
     {
+
         public void Marconmon()
         {
             string host = "10.136.136.41";
@@ -57,14 +58,14 @@ namespace AdminLauncher
 
             // Set to 1 second.  
             timer1.Interval = 1000;
-            timer1.Tick += new EventHandler(timer1_Tick);
+            timer1.Tick += new EventHandler(Timer1_Tick);
 
             // Enable timer.  
             timer1.Enabled = true;
 
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void Timer1_Tick(object sender, EventArgs e)
         {
             //label1.Text = DateTime.Now.ToString();
 
@@ -76,6 +77,12 @@ namespace AdminLauncher
             sc.RdpConnect(scriptname);
         }
 
+        private void RunHttpLink (string link)
+        {
+            ServersChecker sc = new ServersChecker();
+            sc.RunHttpLink(link);
+        }
+
 
         
         private void button3_Click(object sender, EventArgs e)
@@ -85,7 +92,7 @@ namespace AdminLauncher
 
         }
 
-        private void button2uamarsrvdb001_Click(object sender, EventArgs e)
+        private void Button2uamarsrvdb001_Click(object sender, EventArgs e)
         {
             RdpConnect("rdp-mar-srvdb001");
 
@@ -200,19 +207,34 @@ namespace AdminLauncher
 
         private void button9_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://google.com");
+            RunHttpLink("http://google.com");
         }
 
         private void button8runServiceNow_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://cofcointernational.service-now.com/nav_to.do");
+            RunHttpLink("https://cofcointernational.service-now.com/nav_to.do");
             
         }
 
         private void button9runSolarWinds_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://solarwinds.cofcointernational.com/Orion/Login.aspx?ReturnUrl=%2f");
+            RunHttpLink("https://solarwinds.cofcointernational.com/Orion/Login.aspx?ReturnUrl=%2f");
             
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button12mrgidrac_Click(object sender, EventArgs e)
+        {
+            RunHttpLink("http://#");
         }
     }
 }
