@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -38,6 +39,10 @@
             this.button21 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button12MarHp725 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.button12idracMarR730 = new System.Windows.Forms.Button();
             this.label11condTemp = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -54,6 +59,7 @@
             this.button2uamarsrvdb001 = new System.Windows.Forms.Button();
             this.button1uamarterm001 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button12mrgidrac = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -82,7 +88,7 @@
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.button10 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
+            this.button7ievhv001 = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.label18 = new System.Windows.Forms.Label();
@@ -107,10 +113,17 @@
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.label20 = new System.Windows.Forms.Label();
             this.button22 = new System.Windows.Forms.Button();
-            this.button12mrgidrac = new System.Windows.Forms.Button();
+            this.button12citrix = new System.Windows.Forms.Button();
+            this.button15marhpv001idrac = new System.Windows.Forms.Button();
+            this.button17AsusStor6Tb = new System.Windows.Forms.Button();
+            this.button18uablhpv001idrac = new System.Windows.Forms.Button();
+            this.label22 = new System.Windows.Forms.Label();
+            this.button19kievsrvdb = new System.Windows.Forms.Button();
+            this.label23 = new System.Windows.Forms.Label();
             this.groupBox5.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -153,6 +166,7 @@
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.button12citrix);
             this.groupBox5.Controls.Add(this.button9runSolarWinds);
             this.groupBox5.Controls.Add(this.button8runServiceNow);
             this.groupBox5.Controls.Add(this.button21);
@@ -209,6 +223,12 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.button17AsusStor6Tb);
+            this.tabPage1.Controls.Add(this.button15marhpv001idrac);
+            this.tabPage1.Controls.Add(this.button12MarHp725);
+            this.tabPage1.Controls.Add(this.pictureBox1);
+            this.tabPage1.Controls.Add(this.label21);
+            this.tabPage1.Controls.Add(this.button12idracMarR730);
             this.tabPage1.Controls.Add(this.label11condTemp);
             this.tabPage1.Controls.Add(this.label7);
             this.tabPage1.Controls.Add(this.groupBox1);
@@ -220,10 +240,50 @@
             this.tabPage1.Text = "UA MAR";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // button12MarHp725
+            // 
+            this.button12MarHp725.Location = new System.Drawing.Point(874, 179);
+            this.button12MarHp725.Name = "button12MarHp725";
+            this.button12MarHp725.Size = new System.Drawing.Size(100, 23);
+            this.button12MarHp725.TabIndex = 12;
+            this.button12MarHp725.Text = "HP MFP725";
+            this.button12MarHp725.UseVisualStyleBackColor = true;
+            this.button12MarHp725.Click += new System.EventHandler(this.button12MarHp725_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(874, 69);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 97);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(522, 361);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(70, 13);
+            this.label21.TabIndex = 10;
+            this.label21.Text = "root/Start123";
+            // 
+            // button12idracMarR730
+            // 
+            this.button12idracMarR730.Location = new System.Drawing.Point(496, 335);
+            this.button12idracMarR730.Name = "button12idracMarR730";
+            this.button12idracMarR730.Size = new System.Drawing.Size(128, 23);
+            this.button12idracMarR730.TabIndex = 9;
+            this.button12idracMarR730.Text = "IDRAC DELL R730";
+            this.button12idracMarR730.UseVisualStyleBackColor = true;
+            this.button12idracMarR730.Click += new System.EventHandler(this.button12idracMarR730_Click);
+            // 
             // label11condTemp
             // 
             this.label11condTemp.AutoSize = true;
-            this.label11condTemp.Location = new System.Drawing.Point(390, 400);
+            this.label11condTemp.Location = new System.Drawing.Point(232, 400);
             this.label11condTemp.Name = "label11condTemp";
             this.label11condTemp.Size = new System.Drawing.Size(110, 13);
             this.label11condTemp.TabIndex = 8;
@@ -232,7 +292,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(219, 400);
+            this.label7.Location = new System.Drawing.Point(50, 400);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(165, 13);
             this.label7.TabIndex = 7;
@@ -252,9 +312,9 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.button2uamarsrvdb001);
             this.groupBox1.Controls.Add(this.button1uamarterm001);
-            this.groupBox1.Location = new System.Drawing.Point(214, 69);
+            this.groupBox1.Location = new System.Drawing.Point(47, 69);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(599, 294);
+            this.groupBox1.Size = new System.Drawing.Size(599, 249);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "RDP connect - MARIUPOL";
@@ -377,6 +437,8 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label22);
+            this.tabPage2.Controls.Add(this.button18uablhpv001idrac);
             this.tabPage2.Controls.Add(this.button12mrgidrac);
             this.tabPage2.Controls.Add(this.groupBox4);
             this.tabPage2.Controls.Add(this.groupBox3);
@@ -388,6 +450,16 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "UA SILOS";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // button12mrgidrac
+            // 
+            this.button12mrgidrac.Location = new System.Drawing.Point(69, 392);
+            this.button12mrgidrac.Name = "button12mrgidrac";
+            this.button12mrgidrac.Size = new System.Drawing.Size(130, 23);
+            this.button12mrgidrac.TabIndex = 11;
+            this.button12mrgidrac.Text = "MRG Dell iDRAC";
+            this.button12mrgidrac.UseVisualStyleBackColor = true;
+            this.button12mrgidrac.Click += new System.EventHandler(this.button12mrgidrac_Click);
             // 
             // groupBox4
             // 
@@ -651,9 +723,11 @@
             // 
             // groupBox11
             // 
+            this.groupBox11.Controls.Add(this.label23);
+            this.groupBox11.Controls.Add(this.button19kievsrvdb);
             this.groupBox11.Controls.Add(this.button10);
             this.groupBox11.Controls.Add(this.label14);
-            this.groupBox11.Controls.Add(this.button7);
+            this.groupBox11.Controls.Add(this.button7ievhv001);
             this.groupBox11.Location = new System.Drawing.Point(111, 40);
             this.groupBox11.Name = "groupBox11";
             this.groupBox11.Size = new System.Drawing.Size(529, 391);
@@ -679,14 +753,15 @@
             this.label14.TabIndex = 6;
             this.label14.Text = "Physical servers";
             // 
-            // button7
+            // button7ievhv001
             // 
-            this.button7.Location = new System.Drawing.Point(21, 55);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(180, 23);
-            this.button7.TabIndex = 0;
-            this.button7.Text = "HPV1";
-            this.button7.UseVisualStyleBackColor = true;
+            this.button7ievhv001.Location = new System.Drawing.Point(21, 55);
+            this.button7ievhv001.Name = "button7ievhv001";
+            this.button7ievhv001.Size = new System.Drawing.Size(180, 23);
+            this.button7ievhv001.TabIndex = 0;
+            this.button7ievhv001.Text = "NBuaSRV1cHPV001";
+            this.button7ievhv001.UseVisualStyleBackColor = true;
+            this.button7ievhv001.Click += new System.EventHandler(this.button7ievhv001_Click);
             // 
             // tabPage3
             // 
@@ -934,15 +1009,72 @@
             this.button22.Text = "EUWE01ZDEV1CU01.ci.corp";
             this.button22.UseVisualStyleBackColor = true;
             // 
-            // button12mrgidrac
+            // button12citrix
             // 
-            this.button12mrgidrac.Location = new System.Drawing.Point(69, 392);
-            this.button12mrgidrac.Name = "button12mrgidrac";
-            this.button12mrgidrac.Size = new System.Drawing.Size(130, 23);
-            this.button12mrgidrac.TabIndex = 11;
-            this.button12mrgidrac.Text = "MRG Dell iDRAC";
-            this.button12mrgidrac.UseVisualStyleBackColor = true;
-            this.button12mrgidrac.Click += new System.EventHandler(this.button12mrgidrac_Click);
+            this.button12citrix.Location = new System.Drawing.Point(285, 15);
+            this.button12citrix.Name = "button12citrix";
+            this.button12citrix.Size = new System.Drawing.Size(75, 23);
+            this.button12citrix.TabIndex = 8;
+            this.button12citrix.Text = "CitrixPortal";
+            this.button12citrix.UseVisualStyleBackColor = true;
+            this.button12citrix.Click += new System.EventHandler(this.button12citrix_Click);
+            // 
+            // button15marhpv001idrac
+            // 
+            this.button15marhpv001idrac.Location = new System.Drawing.Point(53, 335);
+            this.button15marhpv001idrac.Name = "button15marhpv001idrac";
+            this.button15marhpv001idrac.Size = new System.Drawing.Size(128, 23);
+            this.button15marhpv001idrac.TabIndex = 13;
+            this.button15marhpv001idrac.Text = "IDRAC DELL R720";
+            this.button15marhpv001idrac.UseVisualStyleBackColor = true;
+            // 
+            // button17AsusStor6Tb
+            // 
+            this.button17AsusStor6Tb.Location = new System.Drawing.Point(874, 389);
+            this.button17AsusStor6Tb.Name = "button17AsusStor6Tb";
+            this.button17AsusStor6Tb.Size = new System.Drawing.Size(75, 23);
+            this.button17AsusStor6Tb.TabIndex = 14;
+            this.button17AsusStor6Tb.Text = "Asustor 6Tb";
+            this.button17AsusStor6Tb.UseVisualStyleBackColor = true;
+            this.button17AsusStor6Tb.Click += new System.EventHandler(this.button17AsusStor6Tb_Click);
+            // 
+            // button18uablhpv001idrac
+            // 
+            this.button18uablhpv001idrac.Location = new System.Drawing.Point(265, 392);
+            this.button18uablhpv001idrac.Name = "button18uablhpv001idrac";
+            this.button18uablhpv001idrac.Size = new System.Drawing.Size(127, 23);
+            this.button18uablhpv001idrac.TabIndex = 12;
+            this.button18uablhpv001idrac.Text = "BL Dell iDRAC";
+            this.button18uablhpv001idrac.UseVisualStyleBackColor = true;
+            this.button18uablhpv001idrac.Click += new System.EventHandler(this.button18uablhpv001idrac_Click);
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(289, 418);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(84, 13);
+            this.label22.TabIndex = 13;
+            this.label22.Text = "root/Porshe959;";
+            // 
+            // button19kievsrvdb
+            // 
+            this.button19kievsrvdb.Location = new System.Drawing.Point(21, 113);
+            this.button19kievsrvdb.Name = "button19kievsrvdb";
+            this.button19kievsrvdb.Size = new System.Drawing.Size(180, 23);
+            this.button19kievsrvdb.TabIndex = 8;
+            this.button19kievsrvdb.Text = "NBUARESERVDB001";
+            this.button19kievsrvdb.UseVisualStyleBackColor = true;
+            this.button19kievsrvdb.Click += new System.EventHandler(this.button19kievsrvdb_Click);
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(203, 92);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(103, 13);
+            this.label23.TabIndex = 9;
+            this.label23.Text = "HYPER-V Machines";
             // 
             // Form1
             // 
@@ -959,9 +1091,11 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -1049,7 +1183,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TabPage tabPage6uakiev;
         private System.Windows.Forms.GroupBox groupBox11;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button7ievhv001;
         private System.Windows.Forms.Button button8runServiceNow;
         private System.Windows.Forms.Button button9runSolarWinds;
         private System.Windows.Forms.Label label11condTemp;
@@ -1067,6 +1201,17 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Button button12mrgidrac;
+        private System.Windows.Forms.Button button12idracMarR730;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button12MarHp725;
+        private System.Windows.Forms.Button button12citrix;
+        private System.Windows.Forms.Button button15marhpv001idrac;
+        private System.Windows.Forms.Button button17AsusStor6Tb;
+        private System.Windows.Forms.Button button18uablhpv001idrac;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Button button19kievsrvdb;
+        private System.Windows.Forms.Label label23;
     }
 }
 

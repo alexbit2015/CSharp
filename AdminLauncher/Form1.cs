@@ -224,7 +224,7 @@ namespace AdminLauncher
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            RdpConnect("rdp-smi-srvdb001");
         }
 
         private void Button2_Click(object sender, EventArgs e)
@@ -235,6 +235,43 @@ namespace AdminLauncher
         private void button12mrgidrac_Click(object sender, EventArgs e)
         {
             RunHttpLink("http://#");
+        }
+
+        private void button12idracMarR730_Click(object sender, EventArgs e)
+        {
+            RunHttpLink("https://10.136.136.149/index.html");
+        }
+
+        private void button12MarHp725_Click(object sender, EventArgs e)
+        {
+            RunHttpLink("https://10.136.136.45/"); 
+
+        }
+
+        private void button12citrix_Click(object sender, EventArgs e)
+        {
+            RunHttpLink("https://citrix.cofcointernational.com/Citrix/ProductionWeb/");
+        }
+
+        private void button17AsusStor6Tb_Click(object sender, EventArgs e)
+        {
+            RunHttpLink("http://10.136.136.222:8000");
+        }
+
+        private void button18uablhpv001idrac_Click(object sender, EventArgs e)
+        {
+            RunHttpLink("https://10.136.224.10/index.html");
+            
+        }
+
+        private void button19kievsrvdb_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-iev-srvdb001");
+        }
+
+        private void button7ievhv001_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-iev-hpv001");
         }
     }
 }
