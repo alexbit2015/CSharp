@@ -273,6 +273,36 @@ namespace AdminLauncher
         {
             RdpConnect("rdp-iev-hpv001");
         }
+
+        private void button20smihppv001idrac_Click(object sender, EventArgs e)
+        {
+            RunHttpLink("https://10.100.144.11/restgui/index.html");
+        }
+
+        private void button21MarFwdHp725_Click(object sender, EventArgs e)
+        {
+            RunHttpLink("https://10.136.136.31/");
+        }
+
+        private void button21marhpv002ilo_Click(object sender, EventArgs e)
+        {
+            RunHttpLink("https://10.136.136.170/");
+        }
+
+        private void button7RUKRRSRVDBV001_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-krr-srvdb001");
+        }
+
+        private void button22MrgOmsa_Click(object sender, EventArgs e)
+        {
+            RunHttpLink("https://uamrghpv001:1311/OMSALogin?msgStatus=null");
+        }
+
+        private void button7KheOmsa_Click(object sender, EventArgs e)
+        {
+            RunHttpLink("https://uakhehpv001:1311/OMSALogin?msgStatus=null&manageDWS=true");
+        }
     }
 }
 

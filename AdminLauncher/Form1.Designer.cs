@@ -34,11 +34,18 @@
             this.button9 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.button12citrix = new System.Windows.Forms.Button();
             this.button9runSolarWinds = new System.Windows.Forms.Button();
             this.button8runServiceNow = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label24 = new System.Windows.Forms.Label();
+            this.button21marhpv002ilo = new System.Windows.Forms.Button();
+            this.button21MarFwdHp725 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button17AsusStor6Tb = new System.Windows.Forms.Button();
+            this.button15marhpv001idrac = new System.Windows.Forms.Button();
             this.button12MarHp725 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label21 = new System.Windows.Forms.Label();
@@ -59,6 +66,9 @@
             this.button2uamarsrvdb001 = new System.Windows.Forms.Button();
             this.button1uamarterm001 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button22MrgOmsa = new System.Windows.Forms.Button();
+            this.label22 = new System.Windows.Forms.Label();
+            this.button18uablhpv001idrac = new System.Windows.Forms.Button();
             this.button12mrgidrac = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -86,10 +96,14 @@
             this.button10uamrghpv001 = new System.Windows.Forms.Button();
             this.tabPage6uakiev = new System.Windows.Forms.TabPage();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.button19kievsrvdb = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.button7ievhv001 = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label24smihpvidrac = new System.Windows.Forms.Label();
+            this.button20smihppv001idrac = new System.Windows.Forms.Button();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -113,16 +127,14 @@
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.label20 = new System.Windows.Forms.Label();
             this.button22 = new System.Windows.Forms.Button();
-            this.button12citrix = new System.Windows.Forms.Button();
-            this.button15marhpv001idrac = new System.Windows.Forms.Button();
-            this.button17AsusStor6Tb = new System.Windows.Forms.Button();
-            this.button18uablhpv001idrac = new System.Windows.Forms.Button();
-            this.label22 = new System.Windows.Forms.Label();
-            this.button19kievsrvdb = new System.Windows.Forms.Button();
-            this.label23 = new System.Windows.Forms.Label();
+            this.tabPage5russian = new System.Windows.Forms.TabPage();
+            this.groupBox12krasnodar = new System.Windows.Forms.GroupBox();
+            this.button7RUKRRSRVDBV001 = new System.Windows.Forms.Button();
+            this.button7KheOmsa = new System.Windows.Forms.Button();
             this.groupBox5.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -139,6 +151,8 @@
             this.groupBox9.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            this.tabPage5russian.SuspendLayout();
+            this.groupBox12krasnodar.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -178,6 +192,16 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Run";
             // 
+            // button12citrix
+            // 
+            this.button12citrix.Location = new System.Drawing.Point(285, 15);
+            this.button12citrix.Name = "button12citrix";
+            this.button12citrix.Size = new System.Drawing.Size(75, 23);
+            this.button12citrix.TabIndex = 8;
+            this.button12citrix.Text = "CitrixPortal";
+            this.button12citrix.UseVisualStyleBackColor = true;
+            this.button12citrix.Click += new System.EventHandler(this.button12citrix_Click);
+            // 
             // button9runSolarWinds
             // 
             this.button9runSolarWinds.Location = new System.Drawing.Point(196, 15);
@@ -215,6 +239,7 @@
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage5kzoffices);
             this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Controls.Add(this.tabPage5russian);
             this.tabControl1.Location = new System.Drawing.Point(1, 5);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -223,6 +248,10 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.label24);
+            this.tabPage1.Controls.Add(this.button21marhpv002ilo);
+            this.tabPage1.Controls.Add(this.button21MarFwdHp725);
+            this.tabPage1.Controls.Add(this.pictureBox2);
             this.tabPage1.Controls.Add(this.button17AsusStor6Tb);
             this.tabPage1.Controls.Add(this.button15marhpv001idrac);
             this.tabPage1.Controls.Add(this.button12MarHp725);
@@ -240,13 +269,72 @@
             this.tabPage1.Text = "UA MAR";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(268, 361);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(128, 13);
+            this.label24.TabIndex = 18;
+            this.label24.Text = "administrator | Porshe959;";
+            // 
+            // button21marhpv002ilo
+            // 
+            this.button21marhpv002ilo.Location = new System.Drawing.Point(271, 335);
+            this.button21marhpv002ilo.Name = "button21marhpv002ilo";
+            this.button21marhpv002ilo.Size = new System.Drawing.Size(128, 23);
+            this.button21marhpv002ilo.TabIndex = 17;
+            this.button21marhpv002ilo.Text = "HP iLo";
+            this.button21marhpv002ilo.UseVisualStyleBackColor = true;
+            this.button21marhpv002ilo.Click += new System.EventHandler(this.button21marhpv002ilo_Click);
+            // 
+            // button21MarFwdHp725
+            // 
+            this.button21MarFwdHp725.Location = new System.Drawing.Point(718, 179);
+            this.button21MarFwdHp725.Name = "button21MarFwdHp725";
+            this.button21MarFwdHp725.Size = new System.Drawing.Size(100, 23);
+            this.button21MarFwdHp725.TabIndex = 16;
+            this.button21MarFwdHp725.Text = "HP MFP725 Forw";
+            this.button21MarFwdHp725.UseVisualStyleBackColor = true;
+            this.button21MarFwdHp725.Click += new System.EventHandler(this.button21MarFwdHp725_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.InitialImage")));
+            this.pictureBox2.Location = new System.Drawing.Point(718, 69);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 97);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 15;
+            this.pictureBox2.TabStop = false;
+            // 
+            // button17AsusStor6Tb
+            // 
+            this.button17AsusStor6Tb.Location = new System.Drawing.Point(874, 389);
+            this.button17AsusStor6Tb.Name = "button17AsusStor6Tb";
+            this.button17AsusStor6Tb.Size = new System.Drawing.Size(75, 23);
+            this.button17AsusStor6Tb.TabIndex = 14;
+            this.button17AsusStor6Tb.Text = "Asustor 6Tb";
+            this.button17AsusStor6Tb.UseVisualStyleBackColor = true;
+            this.button17AsusStor6Tb.Click += new System.EventHandler(this.button17AsusStor6Tb_Click);
+            // 
+            // button15marhpv001idrac
+            // 
+            this.button15marhpv001idrac.Location = new System.Drawing.Point(53, 335);
+            this.button15marhpv001idrac.Name = "button15marhpv001idrac";
+            this.button15marhpv001idrac.Size = new System.Drawing.Size(128, 23);
+            this.button15marhpv001idrac.TabIndex = 13;
+            this.button15marhpv001idrac.Text = "IDRAC DELL R720";
+            this.button15marhpv001idrac.UseVisualStyleBackColor = true;
+            // 
             // button12MarHp725
             // 
             this.button12MarHp725.Location = new System.Drawing.Point(874, 179);
             this.button12MarHp725.Name = "button12MarHp725";
             this.button12MarHp725.Size = new System.Drawing.Size(100, 23);
             this.button12MarHp725.TabIndex = 12;
-            this.button12MarHp725.Text = "HP MFP725";
+            this.button12MarHp725.Text = "HP MFP725 Eng";
             this.button12MarHp725.UseVisualStyleBackColor = true;
             this.button12MarHp725.Click += new System.EventHandler(this.button12MarHp725_Click);
             // 
@@ -317,7 +405,7 @@
             this.groupBox1.Size = new System.Drawing.Size(599, 249);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "RDP connect - MARIUPOL";
+            this.groupBox1.Text = "RDP connect - MARIUPOL (10.136.136.0/24)";
             // 
             // button8
             // 
@@ -437,6 +525,8 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.button7KheOmsa);
+            this.tabPage2.Controls.Add(this.button22MrgOmsa);
             this.tabPage2.Controls.Add(this.label22);
             this.tabPage2.Controls.Add(this.button18uablhpv001idrac);
             this.tabPage2.Controls.Add(this.button12mrgidrac);
@@ -450,6 +540,35 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "UA SILOS";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // button22MrgOmsa
+            // 
+            this.button22MrgOmsa.Location = new System.Drawing.Point(69, 418);
+            this.button22MrgOmsa.Name = "button22MrgOmsa";
+            this.button22MrgOmsa.Size = new System.Drawing.Size(130, 23);
+            this.button22MrgOmsa.TabIndex = 14;
+            this.button22MrgOmsa.Text = "MRG OMSA";
+            this.button22MrgOmsa.UseVisualStyleBackColor = true;
+            this.button22MrgOmsa.Click += new System.EventHandler(this.button22MrgOmsa_Click);
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(289, 418);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(84, 13);
+            this.label22.TabIndex = 13;
+            this.label22.Text = "root/Porshe959;";
+            // 
+            // button18uablhpv001idrac
+            // 
+            this.button18uablhpv001idrac.Location = new System.Drawing.Point(265, 392);
+            this.button18uablhpv001idrac.Name = "button18uablhpv001idrac";
+            this.button18uablhpv001idrac.Size = new System.Drawing.Size(127, 23);
+            this.button18uablhpv001idrac.TabIndex = 12;
+            this.button18uablhpv001idrac.Text = "BL Dell iDRAC";
+            this.button18uablhpv001idrac.UseVisualStyleBackColor = true;
+            this.button18uablhpv001idrac.Click += new System.EventHandler(this.button18uablhpv001idrac_Click);
             // 
             // button12mrgidrac
             // 
@@ -735,6 +854,25 @@
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "RDP Kiev Servers";
             // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(203, 92);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(103, 13);
+            this.label23.TabIndex = 9;
+            this.label23.Text = "HYPER-V Machines";
+            // 
+            // button19kievsrvdb
+            // 
+            this.button19kievsrvdb.Location = new System.Drawing.Point(21, 113);
+            this.button19kievsrvdb.Name = "button19kievsrvdb";
+            this.button19kievsrvdb.Size = new System.Drawing.Size(180, 23);
+            this.button19kievsrvdb.TabIndex = 8;
+            this.button19kievsrvdb.Text = "NBUARESERVDB001";
+            this.button19kievsrvdb.UseVisualStyleBackColor = true;
+            this.button19kievsrvdb.Click += new System.EventHandler(this.button19kievsrvdb_Click);
+            // 
             // button10
             // 
             this.button10.Location = new System.Drawing.Point(300, 55);
@@ -765,6 +903,8 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.label24smihpvidrac);
+            this.tabPage3.Controls.Add(this.button20smihppv001idrac);
             this.tabPage3.Controls.Add(this.groupBox8);
             this.tabPage3.Controls.Add(this.groupBox7);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
@@ -774,6 +914,25 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "KZ SILOS";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // label24smihpvidrac
+            // 
+            this.label24smihpvidrac.AutoSize = true;
+            this.label24smihpvidrac.Location = new System.Drawing.Point(322, 400);
+            this.label24smihpvidrac.Name = "label24smihpvidrac";
+            this.label24smihpvidrac.Size = new System.Drawing.Size(90, 13);
+            this.label24smihpvidrac.TabIndex = 3;
+            this.label24smihpvidrac.Text = "root / Porshe959;";
+            // 
+            // button20smihppv001idrac
+            // 
+            this.button20smihppv001idrac.Location = new System.Drawing.Point(283, 361);
+            this.button20smihppv001idrac.Name = "button20smihppv001idrac";
+            this.button20smihppv001idrac.Size = new System.Drawing.Size(168, 23);
+            this.button20smihppv001idrac.TabIndex = 2;
+            this.button20smihppv001idrac.Text = "Dell R740 iDrac";
+            this.button20smihppv001idrac.UseVisualStyleBackColor = true;
+            this.button20smihppv001idrac.Click += new System.EventHandler(this.button20smihppv001idrac_Click);
             // 
             // groupBox8
             // 
@@ -785,7 +944,7 @@
             this.groupBox8.Controls.Add(this.button23kzdenhpv001);
             this.groupBox8.Location = new System.Drawing.Point(547, 31);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(200, 355);
+            this.groupBox8.Size = new System.Drawing.Size(200, 308);
             this.groupBox8.TabIndex = 1;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "DENISOVKA";
@@ -857,10 +1016,10 @@
             this.groupBox7.Controls.Add(this.button2kzsmihpv001);
             this.groupBox7.Location = new System.Drawing.Point(261, 31);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(213, 355);
+            this.groupBox7.Size = new System.Drawing.Size(213, 308);
             this.groupBox7.TabIndex = 0;
             this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "SMIRNOVO";
+            this.groupBox7.Text = "SMIRNOVO (10.100.144.0/24)";
             // 
             // label16
             // 
@@ -1009,72 +1168,45 @@
             this.button22.Text = "EUWE01ZDEV1CU01.ci.corp";
             this.button22.UseVisualStyleBackColor = true;
             // 
-            // button12citrix
+            // tabPage5russian
             // 
-            this.button12citrix.Location = new System.Drawing.Point(285, 15);
-            this.button12citrix.Name = "button12citrix";
-            this.button12citrix.Size = new System.Drawing.Size(75, 23);
-            this.button12citrix.TabIndex = 8;
-            this.button12citrix.Text = "CitrixPortal";
-            this.button12citrix.UseVisualStyleBackColor = true;
-            this.button12citrix.Click += new System.EventHandler(this.button12citrix_Click);
+            this.tabPage5russian.Controls.Add(this.groupBox12krasnodar);
+            this.tabPage5russian.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5russian.Name = "tabPage5russian";
+            this.tabPage5russian.Size = new System.Drawing.Size(1036, 461);
+            this.tabPage5russian.TabIndex = 6;
+            this.tabPage5russian.Text = "RU Offices";
+            this.tabPage5russian.UseVisualStyleBackColor = true;
             // 
-            // button15marhpv001idrac
+            // groupBox12krasnodar
             // 
-            this.button15marhpv001idrac.Location = new System.Drawing.Point(53, 335);
-            this.button15marhpv001idrac.Name = "button15marhpv001idrac";
-            this.button15marhpv001idrac.Size = new System.Drawing.Size(128, 23);
-            this.button15marhpv001idrac.TabIndex = 13;
-            this.button15marhpv001idrac.Text = "IDRAC DELL R720";
-            this.button15marhpv001idrac.UseVisualStyleBackColor = true;
+            this.groupBox12krasnodar.Controls.Add(this.button7RUKRRSRVDBV001);
+            this.groupBox12krasnodar.Location = new System.Drawing.Point(36, 33);
+            this.groupBox12krasnodar.Name = "groupBox12krasnodar";
+            this.groupBox12krasnodar.Size = new System.Drawing.Size(242, 100);
+            this.groupBox12krasnodar.TabIndex = 0;
+            this.groupBox12krasnodar.TabStop = false;
+            this.groupBox12krasnodar.Text = "KRASNODAR";
             // 
-            // button17AsusStor6Tb
+            // button7RUKRRSRVDBV001
             // 
-            this.button17AsusStor6Tb.Location = new System.Drawing.Point(874, 389);
-            this.button17AsusStor6Tb.Name = "button17AsusStor6Tb";
-            this.button17AsusStor6Tb.Size = new System.Drawing.Size(75, 23);
-            this.button17AsusStor6Tb.TabIndex = 14;
-            this.button17AsusStor6Tb.Text = "Asustor 6Tb";
-            this.button17AsusStor6Tb.UseVisualStyleBackColor = true;
-            this.button17AsusStor6Tb.Click += new System.EventHandler(this.button17AsusStor6Tb_Click);
+            this.button7RUKRRSRVDBV001.Location = new System.Drawing.Point(36, 53);
+            this.button7RUKRRSRVDBV001.Name = "button7RUKRRSRVDBV001";
+            this.button7RUKRRSRVDBV001.Size = new System.Drawing.Size(176, 23);
+            this.button7RUKRRSRVDBV001.TabIndex = 0;
+            this.button7RUKRRSRVDBV001.Text = "RUKRRSRVDBV001";
+            this.button7RUKRRSRVDBV001.UseVisualStyleBackColor = true;
+            this.button7RUKRRSRVDBV001.Click += new System.EventHandler(this.button7RUKRRSRVDBV001_Click);
             // 
-            // button18uablhpv001idrac
+            // button7KheOmsa
             // 
-            this.button18uablhpv001idrac.Location = new System.Drawing.Point(265, 392);
-            this.button18uablhpv001idrac.Name = "button18uablhpv001idrac";
-            this.button18uablhpv001idrac.Size = new System.Drawing.Size(127, 23);
-            this.button18uablhpv001idrac.TabIndex = 12;
-            this.button18uablhpv001idrac.Text = "BL Dell iDRAC";
-            this.button18uablhpv001idrac.UseVisualStyleBackColor = true;
-            this.button18uablhpv001idrac.Click += new System.EventHandler(this.button18uablhpv001idrac_Click);
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(289, 418);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(84, 13);
-            this.label22.TabIndex = 13;
-            this.label22.Text = "root/Porshe959;";
-            // 
-            // button19kievsrvdb
-            // 
-            this.button19kievsrvdb.Location = new System.Drawing.Point(21, 113);
-            this.button19kievsrvdb.Name = "button19kievsrvdb";
-            this.button19kievsrvdb.Size = new System.Drawing.Size(180, 23);
-            this.button19kievsrvdb.TabIndex = 8;
-            this.button19kievsrvdb.Text = "NBUARESERVDB001";
-            this.button19kievsrvdb.UseVisualStyleBackColor = true;
-            this.button19kievsrvdb.Click += new System.EventHandler(this.button19kievsrvdb_Click);
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(203, 92);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(103, 13);
-            this.label23.TabIndex = 9;
-            this.label23.Text = "HYPER-V Machines";
+            this.button7KheOmsa.Location = new System.Drawing.Point(631, 392);
+            this.button7KheOmsa.Name = "button7KheOmsa";
+            this.button7KheOmsa.Size = new System.Drawing.Size(142, 23);
+            this.button7KheOmsa.TabIndex = 15;
+            this.button7KheOmsa.Text = "KHE OMSA";
+            this.button7KheOmsa.UseVisualStyleBackColor = true;
+            this.button7KheOmsa.Click += new System.EventHandler(this.button7KheOmsa_Click);
             // 
             // Form1
             // 
@@ -1085,12 +1217,13 @@
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Admin panel";
+            this.Text = "фвьшт";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox5.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -1106,6 +1239,7 @@
             this.groupBox11.ResumeLayout(false);
             this.groupBox11.PerformLayout();
             this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
             this.groupBox7.ResumeLayout(false);
@@ -1116,6 +1250,8 @@
             this.tabPage4.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
+            this.tabPage5russian.ResumeLayout(false);
+            this.groupBox12krasnodar.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1212,6 +1348,17 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Button button19kievsrvdb;
         private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Button button20smihppv001idrac;
+        private System.Windows.Forms.Label label24smihpvidrac;
+        private System.Windows.Forms.Button button21MarFwdHp725;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button21marhpv002ilo;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.TabPage tabPage5russian;
+        private System.Windows.Forms.GroupBox groupBox12krasnodar;
+        private System.Windows.Forms.Button button7RUKRRSRVDBV001;
+        private System.Windows.Forms.Button button22MrgOmsa;
+        private System.Windows.Forms.Button button7KheOmsa;
     }
 }
 
