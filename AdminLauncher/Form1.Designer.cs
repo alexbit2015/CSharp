@@ -66,6 +66,7 @@
             this.button2uamarsrvdb001 = new System.Windows.Forms.Button();
             this.button1uamarterm001 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button7KheOmsa = new System.Windows.Forms.Button();
             this.button22MrgOmsa = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
             this.button18uablhpv001idrac = new System.Windows.Forms.Button();
@@ -130,7 +131,6 @@
             this.tabPage5russian = new System.Windows.Forms.TabPage();
             this.groupBox12krasnodar = new System.Windows.Forms.GroupBox();
             this.button7RUKRRSRVDBV001 = new System.Windows.Forms.Button();
-            this.button7KheOmsa = new System.Windows.Forms.Button();
             this.groupBox5.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -327,6 +327,7 @@
             this.button15marhpv001idrac.TabIndex = 13;
             this.button15marhpv001idrac.Text = "IDRAC DELL R720";
             this.button15marhpv001idrac.UseVisualStyleBackColor = true;
+            this.button15marhpv001idrac.Click += new System.EventHandler(this.button15marhpv001idrac_Click);
             // 
             // button12MarHp725
             // 
@@ -540,6 +541,16 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "UA SILOS";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // button7KheOmsa
+            // 
+            this.button7KheOmsa.Location = new System.Drawing.Point(631, 392);
+            this.button7KheOmsa.Name = "button7KheOmsa";
+            this.button7KheOmsa.Size = new System.Drawing.Size(142, 23);
+            this.button7KheOmsa.TabIndex = 15;
+            this.button7KheOmsa.Text = "KHE OMSA";
+            this.button7KheOmsa.UseVisualStyleBackColor = true;
+            this.button7KheOmsa.Click += new System.EventHandler(this.button7KheOmsa_Click);
             // 
             // button22MrgOmsa
             // 
@@ -1167,6 +1178,7 @@
             this.button22.TabIndex = 0;
             this.button22.Text = "EUWE01ZDEV1CU01.ci.corp";
             this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
             // tabPage5russian
             // 
@@ -1197,16 +1209,6 @@
             this.button7RUKRRSRVDBV001.Text = "RUKRRSRVDBV001";
             this.button7RUKRRSRVDBV001.UseVisualStyleBackColor = true;
             this.button7RUKRRSRVDBV001.Click += new System.EventHandler(this.button7RUKRRSRVDBV001_Click);
-            // 
-            // button7KheOmsa
-            // 
-            this.button7KheOmsa.Location = new System.Drawing.Point(631, 392);
-            this.button7KheOmsa.Name = "button7KheOmsa";
-            this.button7KheOmsa.Size = new System.Drawing.Size(142, 23);
-            this.button7KheOmsa.TabIndex = 15;
-            this.button7KheOmsa.Text = "KHE OMSA";
-            this.button7KheOmsa.UseVisualStyleBackColor = true;
-            this.button7KheOmsa.Click += new System.EventHandler(this.button7KheOmsa_Click);
             // 
             // Form1
             // 

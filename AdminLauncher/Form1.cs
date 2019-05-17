@@ -303,6 +303,16 @@ namespace AdminLauncher
         {
             RunHttpLink("https://uakhehpv001:1311/OMSALogin?msgStatus=null&manageDWS=true");
         }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            RdpConnect("rdp-azu-dev001");
+        }
+
+        private void button15marhpv001idrac_Click(object sender, EventArgs e)
+        {
+            RunHttpLink("https://uamrghpv001:1311/OMSALogin?msgStatus=null");
+        }
     }
 }
 
