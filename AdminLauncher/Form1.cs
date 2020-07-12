@@ -212,13 +212,13 @@ namespace AdminLauncher
 
         private void button8runServiceNow_Click(object sender, EventArgs e)
         {
-            RunHttpLink("https://cofcointernational.service-now.com/nav_to.do");
+            RunHttpLink("#");
             
         }
 
         private void button9runSolarWinds_Click(object sender, EventArgs e)
         {
-            RunHttpLink("https://solarwinds.cofcointernational.com/Orion/Login.aspx?ReturnUrl=%2f");
+            RunHttpLink("#");
             
         }
 
@@ -239,28 +239,28 @@ namespace AdminLauncher
 
         private void button12idracMarR730_Click(object sender, EventArgs e)
         {
-            RunHttpLink("https://10.136.136.149/index.html");
+            RunHttpLink("#");
         }
 
         private void button12MarHp725_Click(object sender, EventArgs e)
         {
-            RunHttpLink("https://10.136.136.45/"); 
+            RunHttpLink("#"); 
 
         }
 
         private void button12citrix_Click(object sender, EventArgs e)
         {
-            RunHttpLink("https://citrix.cofcointernational.com/Citrix/ProductionWeb/");
+            RunHttpLink("#");
         }
 
         private void button17AsusStor6Tb_Click(object sender, EventArgs e)
         {
-            RunHttpLink("http://10.136.136.222:8000");
+            RunHttpLink("#");
         }
 
         private void button18uablhpv001idrac_Click(object sender, EventArgs e)
         {
-            RunHttpLink("https://10.136.224.10/index.html");
+            RunHttpLink("#");
             
         }
 
@@ -276,17 +276,17 @@ namespace AdminLauncher
 
         private void button20smihppv001idrac_Click(object sender, EventArgs e)
         {
-            RunHttpLink("https://10.100.144.11/restgui/index.html");
+            RunHttpLink("#");
         }
 
         private void button21MarFwdHp725_Click(object sender, EventArgs e)
         {
-            RunHttpLink("https://10.136.136.31/");
+            RunHttpLink("#");
         }
 
         private void button21marhpv002ilo_Click(object sender, EventArgs e)
         {
-            RunHttpLink("https://10.136.136.170/");
+            RunHttpLink("#");
         }
 
         private void button7RUKRRSRVDBV001_Click(object sender, EventArgs e)
@@ -296,12 +296,12 @@ namespace AdminLauncher
 
         private void button22MrgOmsa_Click(object sender, EventArgs e)
         {
-            RunHttpLink("https://uamrghpv001:1311/OMSALogin?msgStatus=null");
+            RunHttpLink("#");
         }
 
         private void button7KheOmsa_Click(object sender, EventArgs e)
         {
-            RunHttpLink("https://uakhehpv001:1311/OMSALogin?msgStatus=null&manageDWS=true");
+            RunHttpLink("#");
         }
 
         private void button22_Click(object sender, EventArgs e)
@@ -311,7 +311,7 @@ namespace AdminLauncher
 
         private void button15marhpv001idrac_Click(object sender, EventArgs e)
         {
-            RunHttpLink("https://uamrghpv001:1311/OMSALogin?msgStatus=null");
+            RunHttpLink("#");
         }
     }
 }
